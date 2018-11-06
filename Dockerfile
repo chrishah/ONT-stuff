@@ -22,6 +22,5 @@ python3 setup.py install
 #porechop -h
 
 #create working directory and move to entrypoint
-RUN mkdir /home/working
 VOLUME /home/data
 WORKDIR /home/data
